@@ -1,2 +1,69 @@
-body {
-  background-color: #000; }
+.margin_top_5rem {
+  margin-top: 5rem; }
+
+.margin_bottom_5rem {
+  margin-bottom: 5rem; }
+
+.margin_top_1rem {
+  margin-top: 1rem; }
+
+.center {
+  text-align: center; }
+
+.fa {
+  font-size: 3rem; }
+
+header {
+  height: 100px;
+  background-color: red; }
+  header .headerbar {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header .headerbar .logo img {
+      height: 100px; }
+    header .headerbar ul {
+      list-style-type: none;
+      margin-bottom: 0; }
+      header .headerbar ul li {
+        display: inline-block;
+        margin-left: 25px; }
+    header .headerbar .gplay img {
+      height: 50px; }
+
+.main-screen {
+  height: 500px;
+  background: url("../img/background.png") no-repeat;
+  background-size: cover; }
+  .main-screen form {
+    width: 300px; }
+
+.button_brif {
+  text-align: center;
+  border: 1px solid #e5544d;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: .9rem;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  border-radius: 3px; }
+  .button_brif:hover {
+    text-decoration: none;
+    background-color: red; }
+
+.vacancies_container {
+  height: 400px;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 5px solid #f0f0f0;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 3px;
+  margin-top: 3rem; }
+  .vacancies_container img {
+    width: 100%;
+    height: 200px; }
